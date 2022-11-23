@@ -3,11 +3,11 @@ library(dplyr)
 ## api.elephantsql.com
 con <- dbConnect(
   PostgreSQL(),
-  host = "arjuna.db.elephantsql.com",
-  dbname = "rgwpystu",
+  host = "****.db.elephantsql.com",
+  dbname = "*****",
   port = 5432,                                   ## postgresql port
-  user = "rgwpy***",
-  password = "***Q5VZ9HTwuzkL**D7fGp7xj0nXsVx7",
+  user = "**py***",
+  password = "*********",
  )
 
 dbListTables(con)  ## see if there are any database in the server
